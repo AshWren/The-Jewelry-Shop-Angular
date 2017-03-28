@@ -9,12 +9,18 @@ import { HomeComponent } from './home/home.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { SharedModule } from './shared/shared.module';
 import { AppRoutingModule } from './app-routing.module';
+import { DetailsComponent } from './details/details.component';
+import { NewArrivalsComponent } from './new-arrivals/new-arrivals.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    GalleryComponent
+    GalleryComponent,
+    DetailsComponent,
+    NewArrivalsComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
