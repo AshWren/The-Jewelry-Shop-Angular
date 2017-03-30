@@ -10,19 +10,21 @@ import { Component, OnInit } from '@angular/core';
       <nav>
         <ul>
           <li><a routerLink="/">Home</a></li>
-          <li><a routerLink="/">Home</a></li>
-          <li><a routerLink="/">Home</a></li>
-          <li><a routerLink="/">Home</a></li>
+          <li><a routerLink="gallery">Gallery</a></li>
+          <li><a routerLink="new-arrivals">New Arrivals</a></li>
+          <li><a routerLink="about-us">About Us</a></li>
         </ul>
       </nav>
-
+      <input type="text" name="search" placeholder="Search...">
+    </header>
   `
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent /*implements OnInit */ {
 
-  constructor() { }
+  //constructor() { }
 
-  ngOnInit() {
-  }
+  //ngOnInit() {
+
+  //}
 
 }
