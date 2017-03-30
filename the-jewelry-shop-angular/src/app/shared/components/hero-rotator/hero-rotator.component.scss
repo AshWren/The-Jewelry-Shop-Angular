@@ -1,0 +1,40 @@
+.rotator {
+    position: relative;
+    margin: 10px;
+
+    .rotator-wrapper {
+        ul {
+            li {
+                list-style-type: none;
+
+                img {
+                    z-index: 1;
+                }
+            }
+        }
+    }
+    
+    .prev {
+        display: block;
+        left: 75px;
+        margin-top: -25px;
+        position: absolute;
+        top: 50%;
+        z-index: 100;
+        border: 1px solid black;
+        height: 20px;
+        width: 20px;
+        
+    }
+    .next {
+        display: block;
+        right: 75px;
+        margin-top: -25px;
+        position: absolute;
+        top: 50%;
+        z-index: 100;
+        border: 1px solid black;
+        height: 20px;
+        width: 20px;
+    }
+}
