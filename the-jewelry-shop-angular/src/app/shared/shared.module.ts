@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { CarouselModule } from 'ng2-bootstrap';
 
 
 import { HeaderComponent } from './components/header/header.component';
@@ -13,7 +14,8 @@ import { AppRoutingModule } from '../../app/app-routing.module';
 @NgModule({
   imports: [
     CommonModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule
   ],
   exports: [
     HeaderComponent, 
