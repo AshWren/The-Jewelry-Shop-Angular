@@ -9,6 +9,7 @@ import { FooterComponent } from '../shared/components/footer/footer.component';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
   template: `
+    <a [routerLink]="['details', 4]">Button</a>
     <app-header></app-header>
     <app-hero-rotator></app-hero-rotator>
     <app-footer></app-footer>
